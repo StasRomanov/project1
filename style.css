@@ -1,0 +1,16 @@
+body {
+    background-image: url("img/Pattern.png");
+}
+.content {
+    background-color:white;
+    width: 30%;
+
+}
+h1 {
+    color:white;
+}
+.first_eat{
+    display:flex;
+    flex-direction:column;
+
+}
