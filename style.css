@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "fontsed.otf";
+    font-family: "fontsed";
     src: url("fontsed.otf");
     font-style: normal;
     font-weight: normal;
@@ -10,22 +10,44 @@ body {
 }
 .content {
     background-color:white;
-    width: 30%;
-    
+    width: 320px;
+    height: 509px;
+
 }
-h1 {
-    color:white;
+.name {
+    color:black;
+
 }
 .allContent{
     width: 100%;
     display:flex;
-    flex-direction:column;
-    justify-content:space-around;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
 }
 .quastion{
     color:white;
 }
-a{
+.givMeYouMony{
     text-decoration: none;
-
+    text-decoration-color: #688bff;
+}
+.first_eat{
+    background-color: white;
+    margin: auto;
+}
+.second_eat{
+    background-color: white;
+    margin: auto;
+}
+.third_eat{
+    background-color: white;
+    margin: auto;
+}
+.first_word{
+    size: 10px;
+}
+.page-first-word{
+    color: white;
+    text-align: center;
 }
