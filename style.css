@@ -1,16 +1,31 @@
+@font-face {
+    font-family: "fontsed.otf";
+    src: url("fontsed.otf");
+    font-style: normal;
+    font-weight: normal;
+}
 body {
     background-image: url("img/Pattern.png");
+    font-family: fontsed;
 }
 .content {
     background-color:white;
     width: 30%;
-
+    
 }
 h1 {
     color:white;
 }
-.first_eat{
+.allContent{
+    width: 100%;
     display:flex;
     flex-direction:column;
+    justify-content:space-around;
+}
+.quastion{
+    color:white;
+}
+a{
+    text-decoration: none;
 
 }
