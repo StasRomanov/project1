@@ -20,8 +20,8 @@ body {
 }
 .name {
     color:black;
-    size:16px;
-    font-weight:bold;
+    font-size:40px;
+    font-weight:bolder;
 }
 
 .allContent{
@@ -30,6 +30,7 @@ body {
     flex-direction:row;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
 }
 .quastion{
     color:white;
