@@ -17,11 +17,17 @@ body {
     background-position: -30px 250px;
     background-size: 368px 360px;
     background-repeat: no-repeat;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    border-top-right-radius: 15px;
+    padding-left: 20px;
+    line-height: 10px;
 }
 .name {
     color:black;
     font-size:40px;
     font-weight:bolder;
+    line-height: 5px;
 }
 
 .allContent{
@@ -41,15 +47,12 @@ body {
     color: #25ccff;
 }
 .first_eat{
-
     margin: auto;
 }
 .second_eat{
-
     margin: auto;
 }
 .third_eat{
-
     margin: auto;
 }
 .first_word{
@@ -59,4 +62,18 @@ body {
     color: white;
     text-align: center;
     font-size:50px;
+}
+.content-2{
+    border:solid 5px #ff5461;
+
+}
+.content-3{
+    border:solid 5px #6f6b6e;
+    color: #6f6b6e;
+
+}
+.filter{
+    color: #6f6b6e;
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
 }
