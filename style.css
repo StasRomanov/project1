@@ -12,12 +12,18 @@ body {
     background-color:white;
     width: 320px;
     height: 509px;
-
+    border:solid 5px #10d6ff;
+    background-image: url("img/Photo.png");
+    background-position: -30px 250px;
+    background-size: 368px 360px;
+    background-repeat: no-repeat;
 }
 .name {
     color:black;
-
+    size:16px;
+    font-weight:bold;
 }
+
 .allContent{
     width: 100%;
     display:flex;
@@ -30,18 +36,19 @@ body {
 }
 .givMeYouMony{
     text-decoration: none;
-    text-decoration-color: #688bff;
+    border-bottom: 1px dashed #3fc5ff;
+    color: #25ccff;
 }
 .first_eat{
-    background-color: white;
+
     margin: auto;
 }
 .second_eat{
-    background-color: white;
+
     margin: auto;
 }
 .third_eat{
-    background-color: white;
+
     margin: auto;
 }
 .first_word{
@@ -50,4 +57,5 @@ body {
 .page-first-word{
     color: white;
     text-align: center;
+    font-size:50px;
 }
