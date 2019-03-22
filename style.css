@@ -17,10 +17,6 @@ a{
     width: 320px;
     height: 509px;
     border:solid 5px #10d6ff;
-    background-image: url("img/Photo.png");
-    background-position: -30px 250px;
-    background-size: 368px 360px;
-    background-repeat: no-repeat;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius:15px;
     border-top-right-radius: 15px;
@@ -29,9 +25,10 @@ a{
 }
 .name {
     color:black;
-    font-size:40px;
-    font-weight:bolder;
+    font-size:50px;
+    font-weight: 900;
     margin-top: -20px;
+    margin-left: 30px;
 }
 
 .allContent{
@@ -78,7 +75,30 @@ a{
 }
 .food{
     margin-top: -40px;
+    font-weight: bolder;
+    margin-left: 30px;
 }
 .portions{
     margin-top: 10px;
+}
+p{
+    margin-left: 30px;
+}
+.content::after{
+    content:"";
+    position:absolute;
+
+    top:138px;
+    left:130px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 60px solid transparent;
+}
+.img{
+    background-image: url("img/Photo.png");
+    background-position: -30px 250px;
+    background-size: 368px 360px;
+    background-repeat: no-repeat;
 }
