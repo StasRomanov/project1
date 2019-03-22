@@ -64,10 +64,6 @@ a{
     text-align: center;
     font-size:50px;
 }
-.content-2{
-    border:solid 5px #ff5461;
-
-}
 .content-3{
     border:solid 5px #6f6b6e;
     color: #6f6b6e;
@@ -109,7 +105,18 @@ p{
 .content-3 .img{
     filter: grayscale(100%);
 }
-.content:hover{
+.content-1:hover,
+.content-2:hover{
     transform: scale(1.05);
     transition-duration: 0.5s;
+    animation-name: border;
+    animation-duration: 0.25s;
+    animation-fill-mode:forwards;
+}
+@keyframes border{
+    to{border:solid 7px #ff5461;}
+}
+.giveMeYouMoney:hover{
+    color:#ff5461;
+    border-bottom: 1px dashed #ff5461;
 }
