@@ -98,7 +98,14 @@ p{
 }
 .img{
     background-image: url("img/Photo.png");
-    background-position: -30px 250px;
+    background-position: -40px 40px;
     background-size: 368px 360px;
     background-repeat: no-repeat;
+    width: 315px;
+    height: 312px;
+    margin-left: -20px;
+    border-bottom-left-radius: 10px;
+}
+.content-3 .img{
+    filter: grayscale(100%);
 }
