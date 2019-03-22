@@ -6,7 +6,11 @@
 }
 body {
     background-image: url("img/Pattern.png");
-    font-family: fontsed;
+    font-family: fontsed, serif;
+}
+a{
+    color:black;
+    text-decoration: none;
 }
 .content {
     background-color:white;
@@ -21,13 +25,13 @@ body {
     border-bottom-right-radius:15px;
     border-top-right-radius: 15px;
     padding-left: 20px;
-    line-height: 10px;
+
 }
 .name {
     color:black;
     font-size:40px;
     font-weight:bolder;
-    line-height: 5px;
+    margin-top: -20px;
 }
 
 .allContent{
@@ -38,10 +42,10 @@ body {
     align-items: center;
     flex-wrap:wrap;
 }
-.quastion{
+.question{
     color:white;
 }
-.givMeYouMony{
+.giveMeYouMoney{
     text-decoration: none;
     border-bottom: 1px dashed #3fc5ff;
     color: #25ccff;
@@ -72,8 +76,9 @@ body {
     color: #6f6b6e;
 
 }
-.filter{
-    color: #6f6b6e;
-    filter: alpha(Opacity=50);
-    opacity: 0.5;
+.food{
+    margin-top: -40px;
+}
+.portions{
+    margin-top: 10px;
 }
