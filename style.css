@@ -66,7 +66,16 @@ a{
 }
 .content-3{
     border:solid 5px #6f6b6e;
-    color: #6f6b6e;
+    color: rgba(111, 107, 110, 0.51);
+}
+.content-3 .name{
+    color: rgba(111, 107, 110, 0.5);
+}
+.third_eat .question{
+    color: rgb(255, 236, 68);
+}
+.content-3 .img{
+    opacity: 0.50;
 
 }
 .food{
@@ -102,9 +111,7 @@ p{
     margin-left: -20px;
     border-bottom-left-radius: 10px;
 }
-.content-3 .img{
-    filter: grayscale(100%);
-}
+
 .content-1:hover,
 .content-2:hover{
     transform: scale(1.05);
@@ -127,4 +134,7 @@ p{
     animation-name: border-color;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
+.round{
+
 }
