@@ -66,10 +66,10 @@ a{
 }
 .content-3{
     border:solid 5px #6f6b6e;
-    color: rgba(111, 107, 110, 0.51);
+    color: rgba(0, 0, 0, 0.51);
 }
 .content-3 .name{
-    color: rgba(111, 107, 110, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 .third_eat .question{
     color: rgb(255, 236, 68);
@@ -130,7 +130,8 @@ p{
         border: 5px solid #ff5461;
     }
 }
-.content:active{
+.content-1:active,
+.content-2:active{
     animation-name: border-color;
     animation-duration: 1s;
     animation-fill-mode: forwards;
