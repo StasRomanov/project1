@@ -137,5 +137,15 @@ p{
     animation-fill-mode: forwards;
 }
 .round{
+    width: 100px;
+    height: 100px;
+    background: #3fc5ff;
+    border-radius: 50px;
+    margin-top: -110px;
+    margin-left: 210px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 
 }
