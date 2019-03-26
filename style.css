@@ -122,19 +122,10 @@ p{
     color:#ff5461;
     border-bottom: 1px dashed #ff5461;
 }
-@keyframes border-color{
-    0%{
-        border: 5px solid #ff5461;
-    }
-    100%{
-        border: 5px solid #ff5461;
-    }
-}
+
 .content-1:active,
 .content-2:active{
-    animation-name: border-color;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+    border: 5px solid #ff5461;
 }
 .round{
     width: 100px;
