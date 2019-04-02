@@ -16,7 +16,7 @@ a{
     background-color:white;
     width: 320px;
     height: 509px;
-    border:solid 5px #10d6ff;
+    border:solid 5px #1698D9;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius:15px;
     border-top-right-radius: 15px;
@@ -36,7 +36,7 @@ a{
     display:flex;
     flex-direction:row;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap:wrap;
 }
 .question{
@@ -44,17 +44,12 @@ a{
 }
 .giveMeYouMoney{
     text-decoration: none;
-    border-bottom: 1px dashed #3fc5ff;
-    color: #25ccff;
+    border-bottom: 1px dashed #1698D9;
+    color: #1698D9;
 }
-.first_eat{
-    margin: auto;
-}
-.second_eat{
-    margin: auto;
-}
-.third_eat{
-    margin: auto;
+.eat{
+    margin:0 auto;
+    justify-content:flex-start;
 }
 .first_word{
     size: 10px;
@@ -65,7 +60,7 @@ a{
     font-size:50px;
 }
 .content-3{
-    border:solid 5px rgba(111, 107, 110, 0.34);;
+    border:solid 5px #B3B3B3;
     color: rgba(0, 0, 0, 0.51);
 }
 .content-3 .name{
@@ -108,18 +103,18 @@ p{
 }
 
 .giveMeYouMoney:active{
-    color:#ff5461;
-    border-bottom: 1px dashed #ff5461;
+    color:#D91667;
+    border-bottom: 1px dashed #D91667;
 }
 
 .content-1:active,
 .content-2:active{
-    border: 5px solid #ff5461;
+    border: 5px solid #D91667;
 }
 .round{
     width: 100px;
     height: 100px;
-    background: #3fc5ff;
+    background: #1698D9;
     border-radius: 50px;
     margin-top: -110px;
     margin-left: 210px;
@@ -141,15 +136,11 @@ p{
     vertical-align: middle;
 }
 .content-1:active .round{
-    background: #ff5461;
+    background: #D91667;
 }
 .content-2:active .round{
-    background: #ff5461;
+    background: #D91667;
 }
 .content-3 .round{
-    background: rgba(111, 107, 110, 0.34);
-}
-/* this is костыль */
-.third_eat{
-    margin-top: 20px;
+    background: #B3B3B3;
 }
