@@ -20,7 +20,6 @@ a{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius:15px;
     border-top-right-radius: 15px;
-    padding-left: 20px;
     background-image: url("img/Photo.png");
     background-repeat: no-repeat;
     background-position: -24px 238px;
@@ -30,8 +29,8 @@ a{
     color:black;
     font-size:50px;
     font-weight: 900;
-    margin-top: -20px;
-    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .allContent{
@@ -56,6 +55,8 @@ a{
 }
 .first_word{
     size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .page-first-word{
     color: white;
@@ -88,17 +89,6 @@ p{
     margin-left: 30px;
 }
 
-.img{
-    background-image: url("img/Photo.png");
-    background-position: -40px 40px;
-    background-size: 368px 360px;
-    background-repeat: no-repeat;
-    width: 315px;
-    height: 312px;
-    margin-left: -20px;
-    border-bottom-left-radius: 10px;
-}
-
 .content-1:hover,
 .content-2:hover{
     transform: scale(1.05);
@@ -119,7 +109,7 @@ p{
     height: 100px;
     background: #1698D9;
     border-radius: 50px;
-    margin-top: 215px;
+    margin-top: 175px;
     margin-left: 210px;
     text-align: center;
 }
@@ -146,4 +136,7 @@ p{
 }
 .content-3 .round{
     background: #B3B3B3;
+}
+.text-content{
+    padding:15px 30px 40px 10px;
 }
