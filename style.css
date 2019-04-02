@@ -1,12 +1,12 @@
-@font-face {
+/*@font-face {
     font-family: "fontsed";
     src: url("fontsed.otf");
     font-style: normal;
     font-weight: normal;
-}
+}*/
 body {
     background-image: url("img/Pattern.png");
-    font-family: fontsed, serif;
+    font-family: Trebuchet MS, serif;
 }
 a{
     color:black;
@@ -61,7 +61,8 @@ a{
 .page-first-word{
     color: white;
     text-align: center;
-    font-size:50px;
+    font-size:36px;
+    font-family: "Exo 2.0-Thin", serif;
 }
 .content-3{
     border:solid 5px #B3B3B3;
@@ -79,8 +80,14 @@ a{
 }
 .food{
     margin-top: -40px;
-    font-weight: bolder;
+    font-weight: bold;
     margin-left: 30px;
+    font-family: Trebuchet MS, serif;
+    size: 24px;
+}
+.portions1{
+    margin-top: 10px;
+    color: #666666;
 }
 .portions{
     margin-top: 10px;
