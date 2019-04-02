@@ -21,7 +21,10 @@ a{
     border-bottom-right-radius:15px;
     border-top-right-radius: 15px;
     padding-left: 20px;
-
+    background-image: url("img/Photo.png");
+    background-repeat: no-repeat;
+    background-position: -24px 238px;
+    background-size: 368px 360px;
 }
 .name {
     color:black;
@@ -116,7 +119,7 @@ p{
     height: 100px;
     background: #1698D9;
     border-radius: 50px;
-    margin-top: -110px;
+    margin-top: 215px;
     margin-left: 210px;
     text-align: center;
 }
