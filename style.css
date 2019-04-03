@@ -1,0 +1,149 @@
+/*@font-face {
+    font-family: "fontsed";
+    src: url("fontsed.otf");
+    font-style: normal;
+    font-weight: normal;
+}*/
+body {
+    background-image: url("img/Pattern.png");
+    font-family: Trebuchet MS, serif;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.content {
+    background-color:white;
+    width: 320px;
+    height: 509px;
+    border:solid 5px #1698D9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    border-top-right-radius: 15px;
+    background-image: url("img/Photo.png");
+    background-repeat: no-repeat;
+    background-position: -24px 238px;
+    background-size: 368px 360px;
+}
+.name {
+    color:black;
+    font-size:50px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.allContent{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap:wrap;
+}
+.question{
+    color:white;
+}
+.giveMeYouMoney{
+    text-decoration: none;
+    border-bottom: 1px dashed #1698D9;
+    color: #1698D9;
+}
+.eat{
+    margin:0 auto;
+    justify-content:flex-start;
+}
+.first_word{
+    size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.page-first-word{
+    color: white;
+    text-align: center;
+    font-size:36px;
+    font-family: "Exo 2.0-Thin", serif;
+}
+.content-3{
+    border:solid 5px #B3B3B3;
+    color: rgba(0, 0, 0, 0.51);
+}
+.content-3 .name{
+    color: rgba(0, 0, 0, 0.5);
+}
+.third_eat .question{
+    color: rgb(255, 236, 68);
+}
+.content-3 .img{
+    opacity: 0.50;
+
+}
+.food{
+    margin-top: -40px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: Trebuchet MS, serif;
+    size: 24px;
+}
+.portions1{
+    margin-top: 10px;
+    color: #666666;
+}
+.portions{
+    margin-top: 10px;
+}
+p{
+    margin-left: 30px;
+}
+
+.content-1:hover,
+.content-2:hover{
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+}
+
+.giveMeYouMoney:active{
+    color:#D91667;
+    border-bottom: 1px dashed #D91667;
+}
+
+.content-1:active,
+.content-2:active{
+    border: 5px solid #D91667;
+}
+.round{
+    width: 100px;
+    height: 100px;
+    background: #1698D9;
+    border-radius: 50px;
+    margin-top: 175px;
+    margin-left: 210px;
+    text-align: center;
+}
+.text-in-round{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.round:before{
+    content: "";
+    display: inline-block;
+    min-height: inherit;
+    height: 100%;
+    vertical-align: middle;
+}
+.content-1:active .round{
+    background: #D91667;
+}
+.content-2:active .round{
+    background: #D91667;
+}
+.content-3 .round{
+    background: #B3B3B3;
+}
+.text-content{
+    padding:15px 30px 40px 10px;
+}
