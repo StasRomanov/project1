@@ -55,8 +55,8 @@ a{
 }
 .first_word{
     size: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .page-first-word{
     color: white;
@@ -67,17 +67,15 @@ a{
 .content-3{
     border:solid 5px #B3B3B3;
     color: rgba(0, 0, 0, 0.51);
+    opacity: 0.5;
 }
 .content-3 .name{
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.42);
 }
 .third_eat .question{
     color: rgb(255, 236, 68);
 }
-.content-3 .img{
-    opacity: 0.50;
 
-}
 .food{
     margin-top: -40px;
     font-weight: bold;
@@ -142,8 +140,16 @@ p{
     background: #D91667;
 }
 .content-3 .round{
-    background: #B3B3B3;
+    background: #808080;
 }
 .text-content{
     padding:15px 30px 40px 10px;
+}
+.third-background{
+    background-color: #ffffff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    border-top-right-radius: 15px;
+    width: 330px;
+    height: 519px;
 }
