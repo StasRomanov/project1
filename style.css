@@ -30,14 +30,14 @@ a{
     font-size:50px;
     font-weight: 900;
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .allContent{
-    width: 100%;
+    width: 90%;
     display:flex;
     flex-direction:row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: stretch;
     flex-wrap:wrap;
     margin: auto;
@@ -70,7 +70,7 @@ a{
 
 .content-disabled .name{
     color: rgba(0, 0, 0, 0.42);
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .third_eat .question{
     color: rgb(255, 236, 68);
@@ -160,4 +160,55 @@ p{
     border:solid 5px #B3B3B3;
     color: rgba(0, 0, 0, 0.51);
     opacity: 0.5;
+}
+
+.left-column{
+    width: 10%;
+    height: auto;
+
+}
+.page{
+    height: auto;
+    width: auto;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap:wrap;
+}
+.main-menu{
+    width: 100%;
+    height: 500px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: rgb(22, 152, 217);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    min-height: 154px;
+}
+
+.menu-content{
+    color: #ffffff;
+    width: 100%;
+    height: 44px;
+    vertical-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0;
+
+}
+.menu-content:hover{
+    background-color: rgb(22, 186, 255);
+}
+
+.menu-content p{
+    vertical-align: center;
+    line-height: 44px;
+}
+
+.menu-content:active{
+    background-color: #D91667;
 }
