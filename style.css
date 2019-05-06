@@ -229,14 +229,80 @@ a{
     width: 100%;
     background-color: #D91667;
     left:0;
-
+    transition: transform, .3s;
 }
 
 .menu-text::after{
-    position: absolute;
-    content:'';
-    height: 3px;
-    width: 100%;
     bottom:0;
+}
+
+.border::before,
+.border::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 3px;
     background-color: #D91667;
+    left:0;
+    bottom:0;
+    transition: transform, .3s;
+
+}
+
+.border::after{
+    left:99%;
+}
+
+.border{
+    display: block;
+    position: relative;
+}
+
+.menu-text:hover::before,
+.menu-text:hover::after {
+    transform: scaleX(1);
+
+}
+
+.border:hover::before,
+.border:hover::after {
+    transform: scaleY(1);
+
+}
+
+
+
+.menu-text:not(:hover)::before,
+.menu-text:not(:hover)::after,
+.border:not(:hover)::before,
+.border:not(:hover)::after {
+    transform: scaleY(0);
+
+}
+
+.menu-text:not(:hover)::before,
+.menu-text:not(:hover)::after,
+.border:not(:hover)::before,
+.border:not(:hover)::after {
+    transform: scaleX(0);
+}
+
+.menu-text::before{
+    transform-origin: right;
+    transition-timing-function:linear;
+}
+
+.menu-text::after{
+    transform-origin: left;
+    transition-timing-function:linear;
+}
+
+.menu-text:hover::before{
+    transform-origin: left;
+    transition-timing-function:linear;
+}
+
+.menu-text:hover::after{
+    transform-origin: right;
+    transition-timing-function:linear;
 }
