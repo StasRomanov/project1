@@ -246,7 +246,8 @@ a{
     left:0;
     bottom:0;
     transition: transform, .3s;
-
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .border::after{
@@ -261,7 +262,6 @@ a{
 .menu-text:hover::before,
 .menu-text:hover::after {
     transform: scaleX(1);
-
 }
 
 .border:hover::before,
@@ -270,21 +270,14 @@ a{
 
 }
 
-
-
 .menu-text:not(:hover)::before,
-.menu-text:not(:hover)::after,
+.menu-text:not(:hover)::after{
+    transform: scaleX(0);
+}
+
 .border:not(:hover)::before,
 .border:not(:hover)::after {
     transform: scaleY(0);
-
-}
-
-.menu-text:not(:hover)::before,
-.menu-text:not(:hover)::after,
-.border:not(:hover)::before,
-.border:not(:hover)::after {
-    transform: scaleX(0);
 }
 
 .menu-text::before{
@@ -304,5 +297,25 @@ a{
 
 .menu-text:hover::after{
     transform-origin: right;
+    transition-timing-function:linear;
+}
+
+.border::before{
+    transform-origin: top;
+    transition-timing-function:linear;
+}
+
+.border::after{
+    transform-origin: bottom;
+    transition-timing-function:linear;
+}
+
+.border:hover::before{
+    transform-origin: left;
+    transition-timing-function:linear;
+}
+
+.border:hover::after{
+    transform-origin: top;
     transition-timing-function:linear;
 }
